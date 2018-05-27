@@ -1,0 +1,23 @@
+{
+  "name": "chrome-extension-downloader",
+  "version": "0.0.1",
+  "description": "A few helpful functions to help you download and unzip chrome extensions with a few lines of code.",
+  "main": "./src/index.js",
+  "scripts": {
+    "test": "mocha test"
+  },
+  "author": "Ron Masas",
+  "license": "MIT",
+  "homepage": "https://github.com/masasron/chrome-extension-downloader",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/masasron/chrome-extension-downloader.git"
+  },
+  "dependencies": {
+    "request": "^2.87.0",
+    "unzip": "^0.1.11"
+  },
+  "devDependencies": {
+    "mocha": "^5.2.0"
+  }
+}
